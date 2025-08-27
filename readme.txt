@@ -1,14 +1,17 @@
-# Cart To Checkout Timer
-
-[![Plugin Banner](https://ps.w.org/cart-to-checkout-timer/assets/banner-772x250.png)](https://wordpress.org/plugins/cart-to-checkout-timer/)
-
-**Tags:** woocommerce, cart, checkout, timer, analytics \
-**Tested up to:** 6.8 \
-**Requires PHP:** 7.4
+=== Cart To Checkout Timer ===
+Tags: woocommerce, cart, checkout, timer, analytics
+Contributors: sajjad67
+Author: Sajjad Hossain Sagor
+Tested up to: 6.8
+Requires at least: 6.1
+Stable tag: 1.0.0
+Requires PHP: 7.4
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Track and display cart-to-checkout durations for WooCommerce.
 
-## Description
+== Description ==
 
 **Cart To Checkout Timer** is a powerful WooCommerce plugin designed to help store owners monitor how long products remain in customers' carts before checkout. By tracking and displaying real-time cart-to-checkout durations, this plugin provides valuable insights to optimize the shopping experience, reduce cart abandonment, and boost conversions.
 
@@ -25,53 +28,38 @@ Track and display cart-to-checkout durations for WooCommerce.
 
 Built with WordPress 5.3+ best practices, the plugin uses UTC timestamps (`time()`) for reliable storage and adjusts for the site’s timezone during display. Ideal for e-commerce store owners looking to gain insights into cart-to-checkout behavior.
 
-## Installation
+== Installation ==
 
 1. Upload the plugin to the `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the **Plugins** screen in WordPress.
 3. The plugin is plug-and-play—no configuration needed. Timer is automatically enabled.
 
-## Frequently Asked Questions
+== Frequently Asked Questions ==
 
-### How do I use this plugin?
+= How do I use this plugin? =
 Simply activate the plugin, and it will automatically track and display cart-to-checkout durations on the cart, side cart, and checkout pages. View durations in the WooCommerce Orders table.
 
-### Does it work with block-based themes?
+= Does it work with block-based themes? =
 Yes, the plugin is fully compatible with WooCommerce’s block-based cart and checkout, using mutation observers to handle dynamic DOM updates.
 
-### How are timestamps handled?
+= How are timestamps handled? =
 Timestamps are stored in UTC for consistency and displayed in your site’s timezone (set in **Settings > General > Timezone**), ensuring accurate duration calculations.
 
-### Is it compatible with my WooCommerce version?
+= Is it compatible with my WooCommerce version? =
 The plugin is tested with WooCommerce 8.0+ and WordPress 6.1+. Ensure your WooCommerce and WordPress versions meet the minimum requirements.
 
-## Screenshots
+== Screenshots ==
+1. **Cart Page Timer**: Real-time cart-to-checkout duration displayed next to each product on the cart page.
+2. **Side Cart Timer**: Duration shown in the side cart for quick reference during shopping.
+3. **Checkout Page Timer**: Timers displayed on the block-based checkout page for each cart item.
+4. **Quick View Order Details Duration**: "Cart Duration" details in the WooCommerce Orders table, showing per-item durations.
+5. **Orders Details Duration**: "Cart Duration" details in the WooCommerce Orders table, showing per-item durations.
 
-### 1. Cart Page Timer
+== Changelog ==
 
-![Cart Page Timer](https://ps.w.org/cart-to-checkout-timer/assets/screenshot-1.png)
+= 1.0.0 =
+* Initial release.
 
-### 1. Side Cart Timer
-
-![Cart Page Timer](https://ps.w.org/cart-to-checkout-timer/assets/screenshot-2.png)
-
-### 1. Checkout Page Timer
-
-![Cart Page Timer](https://ps.w.org/cart-to-checkout-timer/assets/screenshot-3.png)
-
-### 1. Quick View Order Details Duration
-
-![Cart Page Timer](https://ps.w.org/cart-to-checkout-timer/assets/screenshot-4.png)
-
-### 1. Orders Details Duration
-
-![Cart Page Timer](https://ps.w.org/cart-to-checkout-timer/assets/screenshot-5.png)
-
-## Changelog
-
-### 1.0.0
-- Initial release.
-
-## Upgrade Notice
+== Upgrade Notice ==
 
 Always try to keep your plugin update so that you can get the improved and additional features added to this plugin up to date.
