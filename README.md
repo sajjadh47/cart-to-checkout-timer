@@ -3,7 +3,7 @@
 [![Plugin Banner](https://ps.w.org/cart-to-checkout-timer/assets/banner-772x250.png)](https://wordpress.org/plugins/cart-to-checkout-timer/)
 
 **Tags:** woocommerce, cart, checkout, timer, analytics \
-**Tested up to:** 6.8 \
+**Tested up to:** 6.9 \
 **Requires PHP:** 7.4
 
 Track and display cart-to-checkout durations for WooCommerce.
@@ -68,6 +68,9 @@ The plugin is tested with WooCommerce 8.0+ and WordPress 6.1+. Ensure your WooCo
 ![Cart Page Timer](https://ps.w.org/cart-to-checkout-timer/assets/screenshot-5.png)
 
 ## Changelog
+
+### 1.0.1
+- Compatibility checkup for latest wp version 6.9
 
 ### 1.0.0
 - Initial release.

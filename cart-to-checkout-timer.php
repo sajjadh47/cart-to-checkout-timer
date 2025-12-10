@@ -13,7 +13,7 @@
  * Plugin Name:          Cart To Checkout Timer
  * Plugin URI:           https://wordpress.org/plugins/cart-to-checkout-timer/
  * Description:          Cart To Checkout Timer measures the exact duration from when a customer adds a product to their cart to when they complete their purchase.
- * Version:              1.0.0
+ * Version:              1.0.1
  * Requires at least:    6.1
  * Requires PHP:         7.4
  * Author:               Sajjad Hossain Sagor
@@ -37,7 +37,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @since    1.0.0
  */
-define( 'CTOCT_CART_TO_CHECKOUT_TIMER_PLUGIN_VERSION', '1.0.0' );
+define( 'CTOCT_CART_TO_CHECKOUT_TIMER_PLUGIN_VERSION', '1.0.1' );
 
 /**
  * The absolute path to the main plugin file.
