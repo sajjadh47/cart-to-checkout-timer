@@ -1,6 +1,6 @@
 # Cart To Checkout Timer
 
-[![Plugin Banner](https://ps.w.org/cart-to-checkout-timer/assets/banner-772x250.png)](https://wordpress.org/plugins/cart-to-checkout-timer/)
+[![Plugin Banner](https://ps.w.org/cart-to-checkout-timer/assets/banner-1544x500.png)](https://wordpress.org/plugins/cart-to-checkout-timer/)
 
 **Tags:** woocommerce, cart, checkout, timer, analytics \
 **Tested up to:** 6.9 \
